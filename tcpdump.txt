@@ -1,0 +1,11 @@
+root@f7d56099515d:~# cat tcpdump.txt
+07:28:51.759234 IP f7d56099515d.ssh > 172.17.0.1.60930: Flags [P.], seq 1876247531:1876247719, ack 2957199136, win 501, options [nop,nop,TS val 1399744318 ecr 1116417643], length 188
+07:28:51.759293 IP 172.17.0.1.60930 > f7d56099515d.ssh: Flags [.], ack 188, win 501, options [nop,nop,TS val 1116417909 ecr 1399744318], length 0
+07:28:52.758142 IP f7d56099515d.39539 > ns1-cache.hotnet.net.il.domain: 49562+ PTR? 1.0.17.172.in-addr.arpa. (41)
+07:28:52.772142 IP ns1-cache.hotnet.net.il.domain > f7d56099515d.39539: 49562 NXDomain* 0/1/0 (76)
+07:28:53.781573 IP f7d56099515d.43502 > ns1-cache.hotnet.net.il.domain: 28208+ PTR? 5.2.57.213.in-addr.arpa. (41)
+07:28:53.797251 IP ns1-cache.hotnet.net.il.domain > f7d56099515d.43502: 28208 1/3/3 PTR ns1-cache.hotnet.net.il. (194)
+07:29:49.118681 IP6 fe80::ccc6:e5ff:fe9e:e3b1.mdns > ff02::fb.mdns: 0 [2q] PTR (QM)? _ipps._tcp.local. PTR (QM)? _ipp._tcp.local. (45)
+07:29:50.101549 IP f7d56099515d.47524 > ns1-cache.hotnet.net.il.domain: 56326+ PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (90)
+07:29:50.116924 IP ns1-cache.hotnet.net.il.domain > f7d56099515d.47524: 56326 NXDomain 0/1/0 (154)
+07:29:50.117200 IP f7d56099515d.41218 > ns1-cache.hotnet.net.il.domain: 41404+ PTR? 1.b.3.e.e.9.e.f.f.f.5.e.6.c.c.c.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
